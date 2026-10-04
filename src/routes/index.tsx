@@ -173,6 +173,7 @@ function Dashboard() {
         </section>
         <footer className="flex flex-wrap items-center justify-between gap-2 py-4 font-mono text-[9px] text-muted-foreground"><span>Fonte: Logistics Intelligence Dataset · 11 abas · sem valores estimados</span><span>{data.summary.clients} clientes · {data.summary.vehicles} veículos · {data.summary.drivers} motoristas</span></footer>
       </div>
+      </div>
     </main>
   </div>;
 }
