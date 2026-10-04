@@ -27,6 +27,7 @@ export const Route = createFileRoute("/")({
 
 type Tone = "success" | "warning" | "danger" | "neutral";
 const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", notation: "compact", maximumFractionDigits: 1 });
+const brlFull = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
 const integer = new Intl.NumberFormat("pt-BR");
 const percent = (n: number) => `${(n * 100).toFixed(1).replace(".", ",")}%`;
 const monthNames = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
