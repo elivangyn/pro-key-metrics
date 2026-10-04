@@ -128,6 +128,7 @@ function Dashboard() {
     </aside>
 
     <main className="min-w-0 data-grid">
+      <div ref={captureRef} className="export-target">
       <header className="sticky top-0 z-20 flex flex-wrap items-center gap-2 border-b border-border bg-background/95 px-4 py-3 backdrop-blur md:px-5">
         <div className="mr-auto min-w-[180px]"><h1 className="text-base font-bold leading-none">Torre de controle</h1><p className="mt-1 font-mono text-[10px] text-muted-foreground">01 JAN — 31 DEZ 2025 · {integer.format(totals.orders)} PEDIDOS</p></div>
         <div className="flex rounded-md border border-border bg-raised p-1 text-[11px]">{["Q1","Q2","Q3","Q4","Ano"].map(p=><button key={p} onClick={()=>setPeriod(p)} className={`rounded px-2 py-1 ${period===p?"bg-primary/15 text-primary":"text-muted-foreground hover:text-foreground"}`}>{p}</button>)}</div>
