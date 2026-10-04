@@ -4,8 +4,8 @@ import { toPng } from "html-to-image";
 import { jsPDF } from "jspdf";
 import {
   Activity, AlertTriangle, Boxes, ChevronDown, CircleDollarSign, Clock3,
-  Download, Gauge, LayoutDashboard, MapPinned, PackageCheck, Route as RouteIcon,
-  Search, Truck, UsersRound, Warehouse,
+  Download, FileImage, FileText, Gauge, LayoutDashboard, Loader2, PackageCheck,
+  Route as RouteIcon, Search, Truck, UsersRound, Warehouse,
 } from "lucide-react";
 import {
   Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, ComposedChart, Line,
