@@ -133,7 +133,11 @@ function Dashboard() {
         <div className="mr-auto min-w-[180px]"><h1 className="text-base font-bold leading-none">Torre de controle</h1><p className="mt-1 font-mono text-[10px] text-muted-foreground">01 JAN — 31 DEZ 2025 · {integer.format(totals.orders)} PEDIDOS</p></div>
         <div className="flex rounded-md border border-border bg-raised p-1 text-[11px]">{["Q1","Q2","Q3","Q4","Ano"].map(p=><button key={p} onClick={()=>setPeriod(p)} className={`rounded px-2 py-1 ${period===p?"bg-primary/15 text-primary":"text-muted-foreground hover:text-foreground"}`}>{p}</button>)}</div>
         <Filter label="Região" value={region} options={data.filters.regions} onChange={setRegion}/><Filter label="Prioridade" value={priority} options={data.filters.priorities} onChange={setPriority}/>
-        <span className="flex items-center gap-1.5 font-mono text-[10px] text-success"><i className="size-1.5 rounded-full bg-success animate-pulse-ring"/>DADOS VALIDADOS</span>
+        <div className="ml-auto flex items-center gap-2">
+          <button onClick={exportPng} disabled={!!exporting} className="flex items-center gap-1.5 rounded-md border border-border bg-raised px-2.5 py-1.5 text-xs text-foreground transition-colors hover:bg-panel disabled:opacity-50">{exporting === "png" ? <Loader2 className="size-3.5 animate-spin"/> : <FileImage className="size-3.5"/>}<span className="hidden sm:inline">PNG</span></button>
+          <button onClick={exportPdf} disabled={!!exporting} className="flex items-center gap-1.5 rounded-md border border-primary/30 bg-primary/10 px-2.5 py-1.5 text-xs text-primary transition-colors hover:bg-primary/15 disabled:opacity-50">{exporting === "pdf" ? <Loader2 className="size-3.5 animate-spin"/> : <FileText className="size-3.5"/>}<span className="hidden sm:inline">PDF</span></button>
+          <span className="flex items-center gap-1.5 font-mono text-[10px] text-success"><i className="size-1.5 rounded-full bg-success animate-pulse-ring"/>DADOS VALIDADOS</span>
+        </div>
       </header>
 
       <div className="p-4 md:p-5">

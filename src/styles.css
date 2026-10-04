@@ -79,6 +79,9 @@
   background-size: 32px 32px;
 }
 
+.export-target { background: var(--background); }
+.exporting header { position: static !important; backdrop-filter: none !important; }
+
 @utility animate-rise { animation: rise .45s ease-out both; }
 @utility animate-pulse-ring { animation: pulse-ring 2.4s ease-in-out infinite; }
 
