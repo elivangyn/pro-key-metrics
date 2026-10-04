@@ -58,6 +58,8 @@ function Dashboard() {
   const [priority, setPriority] = useState("Todos");
   const [period, setPeriod] = useState("Ano");
   const [query, setQuery] = useState("");
+  const captureRef = useRef<HTMLDivElement>(null);
+  const [exporting, setExporting] = useState<null | "png" | "pdf">(null);
   const months = period === "Q1" ? [1,2,3] : period === "Q2" ? [4,5,6] : period === "Q3" ? [7,8,9] : period === "Q4" ? [10,11,12] : [...Array(12)].map((_,i)=>i+1);
 
   const filtered = useMemo(() => data.cube.filter((r) => months.includes(r.month) && (region === "Todos" || r.regiao === region) && (priority === "Todos" || r.prioridade === priority)), [region, priority, period]);
@@ -74,6 +76,48 @@ function Dashboard() {
   function exportCsv() {
     const rows = [["Mês","Pedidos","Valor","OTD"], ...monthly.map(m=>[m.month,m.orders,m.value,m.ontime.toFixed(2)])];
     const blob=new Blob([rows.map(r=>r.join(";")).join("\n")],{type:"text/csv;charset=utf-8"}); const url=URL.createObjectURL(blob); const a=document.createElement("a"); a.href=url; a.download="vortice-ops.csv"; a.click(); URL.revokeObjectURL(url);
+  }
+
+  async function captureNode(): Promise<string> {
+    const node = captureRef.current!;
+    node.classList.add("exporting");
+    await new Promise((r) => setTimeout(r, 80));
+    try {
+      return await toPng(node, { pixelRatio: 2, backgroundColor: "oklch(0.13 0.025 260)", cacheBust: true });
+    } finally {
+      node.classList.remove("exporting");
+    }
+  }
+
+  async function exportPng() {
+    if (exporting) return;
+    setExporting("png");
+    try {
+      const url = await captureNode();
+      const a = document.createElement("a");
+      a.href = url; a.download = "vortice-ops-dashboard.png"; a.click();
+    } finally { setExporting(null); }
+  }
+
+  async function exportPdf() {
+    if (exporting) return;
+    setExporting("pdf");
+    try {
+      const url = await captureNode();
+      const img = new Image();
+      await new Promise<void>((res, rej) => { img.onload = () => res(); img.onerror = rej; img.src = url; });
+      const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
+      const pw = pdf.internal.pageSize.getWidth();
+      const ph = pdf.internal.pageSize.getHeight();
+      const imgH = (img.height / img.width) * pw;
+      let y = 0;
+      while (y < imgH) {
+        pdf.addImage(url, "PNG", 0, -y, pw, imgH);
+        y += ph;
+        if (y < imgH) pdf.addPage();
+      }
+      pdf.save("vortice-ops-dashboard.pdf");
+    } finally { setExporting(null); }
   }
 
   return <div className="min-h-screen bg-background text-foreground lg:grid lg:grid-cols-[224px_1fr]">
