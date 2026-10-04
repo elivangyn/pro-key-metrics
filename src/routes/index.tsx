@@ -144,7 +144,7 @@ function Dashboard() {
       <div className="p-4 md:p-5">
         <div className="grid grid-cols-2 gap-3 xl:grid-cols-6">
           <Kpi label="Pedidos" value={integer.format(totals.orders)} note={`${region} · ${period}`} icon={PackageCheck}/>
-          <Kpi label="Valor dos pedidos" value={brl.format(totals.value)} note={`Ticket ${brl.format(totals.value/Math.max(1,totals.orders))}`} icon={CircleDollarSign}/>
+          <Kpi label="Valor dos pedidos" value={brl.format(totals.value)} note={`Ticket ${brlFull.format(totals.value/Math.max(1,totals.orders))}`} icon={CircleDollarSign}/>
           <Kpi label="Receita de frete" value={brl.format(totals.freight)} note={`Margem ${percent(margin)}`} tone="success" icon={Activity}/>
           <Kpi label="Entregas no prazo" value={percent(totals.ontime/Math.max(1,totals.orders))} note={`Atraso médio ${(totals.delay/Math.max(1,totals.orders)).toFixed(1).replace(".",",")}h`} tone={totals.ontime/totals.orders<.5?"danger":"success"} icon={Clock3}/>
           <Kpi label="Aderência de rota" value={percent(adherence)} note={`${integer.format(totals.real-totals.plan)} km excedentes`} tone={adherence<.9?"warning":"success"} icon={RouteIcon}/>
