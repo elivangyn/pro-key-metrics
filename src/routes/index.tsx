@@ -1,9 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import { toPng } from "html-to-image";
+import { jsPDF } from "jspdf";
 import {
   Activity, AlertTriangle, Boxes, ChevronDown, CircleDollarSign, Clock3,
-  Download, Gauge, LayoutDashboard, MapPinned, PackageCheck, Route as RouteIcon,
-  Search, Truck, UsersRound, Warehouse,
+  Download, FileImage, FileText, Gauge, LayoutDashboard, Loader2, PackageCheck,
+  Route as RouteIcon, Search, Truck, UsersRound, Warehouse,
 } from "lucide-react";
 import {
   Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, ComposedChart, Line,
@@ -56,6 +58,8 @@ function Dashboard() {
   const [priority, setPriority] = useState("Todos");
   const [period, setPeriod] = useState("Ano");
   const [query, setQuery] = useState("");
+  const captureRef = useRef<HTMLDivElement>(null);
+  const [exporting, setExporting] = useState<null | "png" | "pdf">(null);
   const months = period === "Q1" ? [1,2,3] : period === "Q2" ? [4,5,6] : period === "Q3" ? [7,8,9] : period === "Q4" ? [10,11,12] : [...Array(12)].map((_,i)=>i+1);
 
   const filtered = useMemo(() => data.cube.filter((r) => months.includes(r.month) && (region === "Todos" || r.regiao === region) && (priority === "Todos" || r.prioridade === priority)), [region, priority, period]);
@@ -74,6 +78,48 @@ function Dashboard() {
     const blob=new Blob([rows.map(r=>r.join(";")).join("\n")],{type:"text/csv;charset=utf-8"}); const url=URL.createObjectURL(blob); const a=document.createElement("a"); a.href=url; a.download="vortice-ops.csv"; a.click(); URL.revokeObjectURL(url);
   }
 
+  async function captureNode(): Promise<string> {
+    const node = captureRef.current!;
+    node.classList.add("exporting");
+    await new Promise((r) => setTimeout(r, 80));
+    try {
+      return await toPng(node, { pixelRatio: 2, backgroundColor: "oklch(0.13 0.025 260)", cacheBust: true });
+    } finally {
+      node.classList.remove("exporting");
+    }
+  }
+
+  async function exportPng() {
+    if (exporting) return;
+    setExporting("png");
+    try {
+      const url = await captureNode();
+      const a = document.createElement("a");
+      a.href = url; a.download = "vortice-ops-dashboard.png"; a.click();
+    } finally { setExporting(null); }
+  }
+
+  async function exportPdf() {
+    if (exporting) return;
+    setExporting("pdf");
+    try {
+      const url = await captureNode();
+      const img = new Image();
+      await new Promise<void>((res, rej) => { img.onload = () => res(); img.onerror = rej; img.src = url; });
+      const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
+      const pw = pdf.internal.pageSize.getWidth();
+      const ph = pdf.internal.pageSize.getHeight();
+      const imgH = (img.height / img.width) * pw;
+      let y = 0;
+      while (y < imgH) {
+        pdf.addImage(url, "PNG", 0, -y, pw, imgH);
+        y += ph;
+        if (y < imgH) pdf.addPage();
+      }
+      pdf.save("vortice-ops-dashboard.pdf");
+    } finally { setExporting(null); }
+  }
+
   return <div className="min-h-screen bg-background text-foreground lg:grid lg:grid-cols-[224px_1fr]">
     <aside className="hidden min-h-screen border-r border-border bg-panel/70 p-4 lg:flex lg:flex-col">
       <div className="mb-7 flex items-center gap-2.5"><span className="grid size-8 place-items-center rounded-md border border-primary/40 bg-primary/10 font-bold text-primary">V</span><div><p className="text-sm font-bold">Vórtice <span className="font-mono text-[10px] font-normal text-muted-foreground">/ops</span></p><p className="font-mono text-[9px] text-muted-foreground">LOGISTICS INTELLIGENCE</p></div></div>
@@ -82,11 +128,16 @@ function Dashboard() {
     </aside>
 
     <main className="min-w-0 data-grid">
+      <div ref={captureRef} className="export-target">
       <header className="sticky top-0 z-20 flex flex-wrap items-center gap-2 border-b border-border bg-background/95 px-4 py-3 backdrop-blur md:px-5">
         <div className="mr-auto min-w-[180px]"><h1 className="text-base font-bold leading-none">Torre de controle</h1><p className="mt-1 font-mono text-[10px] text-muted-foreground">01 JAN — 31 DEZ 2025 · {integer.format(totals.orders)} PEDIDOS</p></div>
         <div className="flex rounded-md border border-border bg-raised p-1 text-[11px]">{["Q1","Q2","Q3","Q4","Ano"].map(p=><button key={p} onClick={()=>setPeriod(p)} className={`rounded px-2 py-1 ${period===p?"bg-primary/15 text-primary":"text-muted-foreground hover:text-foreground"}`}>{p}</button>)}</div>
         <Filter label="Região" value={region} options={data.filters.regions} onChange={setRegion}/><Filter label="Prioridade" value={priority} options={data.filters.priorities} onChange={setPriority}/>
-        <span className="flex items-center gap-1.5 font-mono text-[10px] text-success"><i className="size-1.5 rounded-full bg-success animate-pulse-ring"/>DADOS VALIDADOS</span>
+        <div className="ml-auto flex items-center gap-2">
+          <button onClick={exportPng} disabled={!!exporting} className="flex items-center gap-1.5 rounded-md border border-border bg-raised px-2.5 py-1.5 text-xs text-foreground transition-colors hover:bg-panel disabled:opacity-50">{exporting === "png" ? <Loader2 className="size-3.5 animate-spin"/> : <FileImage className="size-3.5"/>}<span className="hidden sm:inline">PNG</span></button>
+          <button onClick={exportPdf} disabled={!!exporting} className="flex items-center gap-1.5 rounded-md border border-primary/30 bg-primary/10 px-2.5 py-1.5 text-xs text-primary transition-colors hover:bg-primary/15 disabled:opacity-50">{exporting === "pdf" ? <Loader2 className="size-3.5 animate-spin"/> : <FileText className="size-3.5"/>}<span className="hidden sm:inline">PDF</span></button>
+          <span className="flex items-center gap-1.5 font-mono text-[10px] text-success"><i className="size-1.5 rounded-full bg-success animate-pulse-ring"/>DADOS VALIDADOS</span>
+        </div>
       </header>
 
       <div className="p-4 md:p-5">
@@ -126,6 +177,7 @@ function Dashboard() {
           <div className="overflow-x-auto"><table className="w-full min-w-[760px] text-left text-xs"><thead className="font-mono text-[9px] uppercase text-muted-foreground"><tr className="border-b border-border">{["Pedido","Cliente","Região","Prioridade","Atraso","Valor","Status"].map(h=><th key={h} className="px-4 py-2 font-medium">{h}</th>)}</tr></thead><tbody>{visibleExceptions.map(e=><tr key={e.numero_pedido} className="border-b border-border/60 transition-colors last:border-0 hover:bg-raised"><td className="px-4 py-2.5 font-mono text-primary">{e.numero_pedido}</td><td className="px-4 py-2.5">{e.nome_cliente}</td><td className="px-4 py-2.5 text-muted-foreground">{e.regiao}</td><td className="px-4 py-2.5">{e.prioridade}</td><td className="px-4 py-2.5 font-mono text-danger">+{e.atraso_h.toFixed(1).replace(".",",")}h</td><td className="px-4 py-2.5 font-mono">{brl.format(e.valor_pedido)}</td><td className="px-4 py-2.5"><span className="inline-flex items-center gap-1 text-danger"><AlertTriangle className="size-3"/>{e.status_entrega}</span></td></tr>)}</tbody></table></div>
         </section>
         <footer className="flex flex-wrap items-center justify-between gap-2 py-4 font-mono text-[9px] text-muted-foreground"><span>Fonte: Logistics Intelligence Dataset · 11 abas · sem valores estimados</span><span>{data.summary.clients} clientes · {data.summary.vehicles} veículos · {data.summary.drivers} motoristas</span></footer>
+      </div>
       </div>
     </main>
   </div>;
