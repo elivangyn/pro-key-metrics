@@ -164,11 +164,11 @@ function Dashboard() {
         <div className="mt-3 grid gap-3 xl:grid-cols-[1fr_1fr_320px]">
           <div id="regioes" className="scroll-mt-20"><Panel title="Performance regional" caption="VALOR DOS PEDIDOS E OTD">
             <div className="space-y-3">{regionRows.map((r,i)=><div key={r.name} className="grid grid-cols-[82px_1fr_68px] items-center gap-2 text-xs"><span className="text-muted-foreground">{String(i+1).padStart(2,"0")} · {r.name}</span><div className="h-2 overflow-hidden rounded-full bg-raised"><div className="h-full rounded-full bg-primary" style={{width:`${r.value/maxRegion*100}%`}}/></div><span className="text-right font-mono text-[10px]">{brl.format(r.value)}</span></div>)}</div>
-          </Panel>
-          <Panel title="Mix de prioridade" caption="VOLUME E NÍVEL DE SERVIÇO">
+          </Panel></div>
+          <div id="prioridades" className="scroll-mt-20"><Panel title="Mix de prioridade" caption="VOLUME E NÍVEL DE SERVIÇO">
             <div className="h-40"><ResponsiveContainer width="100%" height="100%"><BarChart data={data.priorities} layout="vertical" margin={{left:5,right:8}}><XAxis type="number" hide/><YAxis type="category" dataKey="prioridade" width={78} axisLine={false} tickLine={false} fontSize={10} stroke="var(--muted-foreground)"/><Tooltip contentStyle={{background:"var(--popover)",border:"1px solid var(--border)",borderRadius:6,fontSize:11}}/><Bar dataKey="orders" radius={[0,3,3,0]}>{data.priorities.map(p=><Cell key={p.prioridade} fill={p.prioridade==="Urgente"?"var(--danger)":p.prioridade==="Programada"?"var(--warning)":"var(--primary)"}/>)}</Bar></BarChart></ResponsiveContainer></div>
-          </Panel>
-          <Panel title="Principais ocorrências" caption="FREQUÊNCIA E SEVERIDADE">
+          </Panel></div>
+          <div id="docas" className="scroll-mt-20"><Panel title="Principais ocorrências" caption="FREQUÊNCIA E SEVERIDADE">
             <div className="space-y-2">{data.occurrences.slice(0,5).map((o,i)=><div key={`${o.tipo_ocorrencia}${o.severidade}`} className="flex items-center gap-2 border-b border-border/60 pb-2 text-xs last:border-0"><span className={`size-1.5 rounded-full ${o.severidade==="Alta"?"bg-danger":o.severidade==="Média"?"bg-warning":"bg-primary"}`}/><span className="min-w-0 flex-1 truncate text-muted-foreground">{o.tipo_ocorrencia}</span><span className="font-mono text-[10px]">{o.count}</span></div>)}</div>
           </Panel>
         </div>
