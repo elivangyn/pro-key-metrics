@@ -1,0 +1,528 @@
+{
+  "summary": {
+    "orders": 12000,
+    "orderValue": 132173475.75,
+    "freight": 7894437.2,
+    "cost": 2491137.96,
+    "margin": 0.6844438815727105,
+    "ontime": 0.30475,
+    "avgDelay": 2.2067808333333336,
+    "distancePlan": 2014532.5,
+    "distanceReal": 2319696.9000000004,
+    "clients": 180,
+    "vehicles": 45,
+    "drivers": 35,
+    "occurrences": 900,
+    "occurrenceCost": 805414.3699999999,
+    "avgDockWait": 46.69413242009132
+  },
+  "months": [
+    {
+      "month": "2025-01",
+      "orders": 1014,
+      "value": 10674563.78,
+      "freight": 691958.2,
+      "cost": 213198.85,
+      "ontime": 0.28895463510848124
+    },
+    {
+      "month": "2025-02",
+      "orders": 952,
+      "value": 10480769.82,
+      "freight": 618060.48,
+      "cost": 196592.75,
+      "ontime": 0.3077731092436975
+    },
+    {
+      "month": "2025-03",
+      "orders": 1007,
+      "value": 11250963.35,
+      "freight": 630259.72,
+      "cost": 206115.96,
+      "ontime": 0.35253227408143
+    },
+    {
+      "month": "2025-04",
+      "orders": 1027,
+      "value": 11486724.19,
+      "freight": 667323.65,
+      "cost": 217803.13,
+      "ontime": 0.31061343719571566
+    },
+    {
+      "month": "2025-05",
+      "orders": 1004,
+      "value": 11576076.98,
+      "freight": 651892.38,
+      "cost": 205460.79,
+      "ontime": 0.30776892430278885
+    },
+    {
+      "month": "2025-06",
+      "orders": 1014,
+      "value": 10990198.69,
+      "freight": 655536.75,
+      "cost": 209128.72,
+      "ontime": 0.3136094674556213
+    },
+    {
+      "month": "2025-07",
+      "orders": 1053,
+      "value": 12429684.95,
+      "freight": 678592.14,
+      "cost": 216812.68,
+      "ontime": 0.29914529914529914
+    },
+    {
+      "month": "2025-08",
+      "orders": 1029,
+      "value": 11321992.69,
+      "freight": 693897.37,
+      "cost": 214165.76,
+      "ontime": 0.2691933916423712
+    },
+    {
+      "month": "2025-09",
+      "orders": 950,
+      "value": 10004471.12,
+      "freight": 629022.96,
+      "cost": 197201.88,
+      "ontime": 0.31894736842105265
+    },
+    {
+      "month": "2025-10",
+      "orders": 1001,
+      "value": 10579018.24,
+      "freight": 674925.55,
+      "cost": 212176.55,
+      "ontime": 0.2977022977022977
+    },
+    {
+      "month": "2025-11",
+      "orders": 943,
+      "value": 10136482.72,
+      "freight": 630352.65,
+      "cost": 195640.69,
+      "ontime": 0.2990455991516437
+    },
+    {
+      "month": "2025-12",
+      "orders": 1006,
+      "value": 11242529.22,
+      "freight": 672615.35,
+      "cost": 206840.2,
+      "ontime": 0.2932405566600398
+    }
+  ],
+  "regions": [
+    {
+      "regiao": "Centro-Oeste",
+      "orders": 5130,
+      "value": 57087413.0,
+      "freight": 3369570.98,
+      "cost": 1061474.66,
+      "ontime": 0.30214424951267055,
+      "avgDelay": 2.178744639376218
+    },
+    {
+      "regiao": "Sudeste",
+      "orders": 3102,
+      "value": 33815787.78,
+      "freight": 2037588.74,
+      "cost": 640370.56,
+      "ontime": 0.3056092843326886,
+      "avgDelay": 2.236985815602837
+    },
+    {
+      "regiao": "Norte",
+      "orders": 1552,
+      "value": 16911092.06,
+      "freight": 1026744.53,
+      "cost": 324603.79,
+      "ontime": 0.31572164948453607,
+      "avgDelay": 2.167216494845361
+    },
+    {
+      "regiao": "Nordeste",
+      "orders": 1398,
+      "value": 15203482.9,
+      "freight": 921314.54,
+      "cost": 293891.94,
+      "ontime": 0.3011444921316166,
+      "avgDelay": 2.269113018597997
+    },
+    {
+      "regiao": "Sul",
+      "orders": 818,
+      "value": 9155700.01,
+      "freight": 539218.41,
+      "cost": 170797.01,
+      "ontime": 0.30317848410757947,
+      "avgDelay": 2.236601466992665
+    }
+  ],
+  "priorities": [
+    {
+      "prioridade": "Normal",
+      "orders": 8636,
+      "ontime": 0.30546549328392775,
+      "value": 95136453.29
+    },
+    {
+      "prioridade": "Programada",
+      "orders": 2154,
+      "ontime": 0.2971216341689879,
+      "value": 23685944.61
+    },
+    {
+      "prioridade": "Urgente",
+      "orders": 1210,
+      "ontime": 0.31322314049586775,
+      "value": 13351077.85
+    }
+  ],
+  "categories": [
+    {
+      "categoria": "Bebidas",
+      "orders": 2335,
+      "value": 29033817.61,
+      "qty": 36897
+    },
+    {
+      "categoria": "Utilidades",
+      "orders": 2524,
+      "value": 27612819.82,
+      "qty": 38874
+    },
+    {
+      "categoria": "Limpeza",
+      "orders": 2197,
+      "value": 22686338.21,
+      "qty": 33690
+    },
+    {
+      "categoria": "Higiene",
+      "orders": 1824,
+      "value": 19129956.2,
+      "qty": 28626
+    },
+    {
+      "categoria": "Alimentos",
+      "orders": 1946,
+      "value": 17889585.5,
+      "qty": 30078
+    },
+    {
+      "categoria": "Eletrônicos",
+      "orders": 1174,
+      "value": 15820958.41,
+      "qty": 18298
+    }
+  ],
+  "vehicleStatus": [
+    {
+      "status": "Disponível",
+      "count": 27
+    },
+    {
+      "status": "Manutenção",
+      "count": 18
+    }
+  ],
+  "occurrences": [
+    {
+      "tipo_ocorrencia": "Atraso",
+      "severidade": "Baixa",
+      "count": 130,
+      "cost": 115690.49
+    },
+    {
+      "tipo_ocorrencia": "Atraso",
+      "severidade": "Média",
+      "count": 99,
+      "cost": 90424.16
+    },
+    {
+      "tipo_ocorrencia": "Falta de produto",
+      "severidade": "Baixa",
+      "count": 76,
+      "cost": 69250.05
+    },
+    {
+      "tipo_ocorrencia": "Avaria",
+      "severidade": "Baixa",
+      "count": 62,
+      "cost": 58568.53
+    },
+    {
+      "tipo_ocorrencia": "Endereço incorreto",
+      "severidade": "Baixa",
+      "count": 59,
+      "cost": 55573.05
+    },
+    {
+      "tipo_ocorrencia": "Veículo em manutenção",
+      "severidade": "Baixa",
+      "count": 56,
+      "cost": 51398.56
+    },
+    {
+      "tipo_ocorrencia": "Falta de produto",
+      "severidade": "Média",
+      "count": 51,
+      "cost": 52708.72
+    },
+    {
+      "tipo_ocorrencia": "Avaria",
+      "severidade": "Média",
+      "count": 46,
+      "cost": 42911.55
+    },
+    {
+      "tipo_ocorrencia": "Devolução",
+      "severidade": "Baixa",
+      "count": 46,
+      "cost": 39876.57
+    },
+    {
+      "tipo_ocorrencia": "Devolução",
+      "severidade": "Média",
+      "count": 37,
+      "cost": 35273.21
+    },
+    {
+      "tipo_ocorrencia": "Endereço incorreto",
+      "severidade": "Média",
+      "count": 34,
+      "cost": 30187.92
+    },
+    {
+      "tipo_ocorrencia": "Recusa do cliente",
+      "severidade": "Baixa",
+      "count": 32,
+      "cost": 29746.23
+    },
+    {
+      "tipo_ocorrencia": "Veículo em manutenção",
+      "severidade": "Média",
+      "count": 30,
+      "cost": 21411.51
+    },
+    {
+      "tipo_ocorrencia": "Recusa do cliente",
+      "severidade": "Média",
+      "count": 29,
+      "cost": 24416.329999999998
+    },
+    {
+      "tipo_ocorrencia": "Atraso",
+      "severidade": "Alta",
+      "count": 27,
+      "cost": 15994.4
+    },
+    {
+      "tipo_ocorrencia": "Devolução",
+      "severidade": "Alta",
+      "count": 23,
+      "cost": 19640.99
+    },
+    {
+      "tipo_ocorrencia": "Veículo em manutenção",
+      "severidade": "Alta",
+      "count": 17,
+      "cost": 16515.77
+    },
+    {
+      "tipo_ocorrencia": "Avaria",
+      "severidade": "Alta",
+      "count": 14,
+      "cost": 12092.35
+    },
+    {
+      "tipo_ocorrencia": "Falta de produto",
+      "severidade": "Alta",
+      "count": 14,
+      "cost": 9502.9
+    },
+    {
+      "tipo_ocorrencia": "Endereço incorreto",
+      "severidade": "Alta",
+      "count": 12,
+      "cost": 9359.57
+    },
+    {
+      "tipo_ocorrencia": "Recusa do cliente",
+      "severidade": "Alta",
+      "count": 6,
+      "cost": 4871.51
+    }
+  ],
+  "exceptions": [
+    {
+      "numero_pedido": "PED-0002145",
+      "nome_cliente": "Cliente 0109",
+      "regiao": "Nordeste",
+      "prioridade": "Normal",
+      "atraso_h": 17.41,
+      "status_entrega": "Muito atrasada",
+      "valor_pedido": 19190.7
+    },
+    {
+      "numero_pedido": "PED-0007991",
+      "nome_cliente": "Cliente 0035",
+      "regiao": "Centro-Oeste",
+      "prioridade": "Normal",
+      "atraso_h": 17.17,
+      "status_entrega": "Muito atrasada",
+      "valor_pedido": 874.65
+    },
+    {
+      "numero_pedido": "PED-0006024",
+      "nome_cliente": "Cliente 0018",
+      "regiao": "Centro-Oeste",
+      "prioridade": "Normal",
+      "atraso_h": 16.34,
+      "status_entrega": "Muito atrasada",
+      "valor_pedido": 659.3
+    },
+    {
+      "numero_pedido": "PED-0011289",
+      "nome_cliente": "Cliente 0093",
+      "regiao": "Centro-Oeste",
+      "prioridade": "Programada",
+      "atraso_h": 16.29,
+      "status_entrega": "Muito atrasada",
+      "valor_pedido": 971.08
+    },
+    {
+      "numero_pedido": "PED-0004132",
+      "nome_cliente": "Cliente 0044",
+      "regiao": "Sudeste",
+      "prioridade": "Normal",
+      "atraso_h": 15.89,
+      "status_entrega": "Muito atrasada",
+      "valor_pedido": 5091.94
+    },
+    {
+      "numero_pedido": "PED-0001703",
+      "nome_cliente": "Cliente 0140",
+      "regiao": "Norte",
+      "prioridade": "Urgente",
+      "atraso_h": 15.44,
+      "status_entrega": "Muito atrasada",
+      "valor_pedido": 8592.0
+    },
+    {
+      "numero_pedido": "PED-0001119",
+      "nome_cliente": "Cliente 0040",
+      "regiao": "Norte",
+      "prioridade": "Normal",
+      "atraso_h": 15.25,
+      "status_entrega": "Muito atrasada",
+      "valor_pedido": 21734.33
+    },
+    {
+      "numero_pedido": "PED-0006849",
+      "nome_cliente": "Cliente 0176",
+      "regiao": "Centro-Oeste",
+      "prioridade": "Normal",
+      "atraso_h": 15.1,
+      "status_entrega": "Muito atrasada",
+      "valor_pedido": 25990.6
+    }
+  ],
+  "docks": [
+    {
+      "doca_id": 8,
+      "occupancy": 61.91424657534247,
+      "wait": 48.66794520547945,
+      "moves": 26975
+    },
+    {
+      "doca_id": 4,
+      "occupancy": 61.71150684931507,
+      "wait": 47.527945205479455,
+      "moves": 26747
+    },
+    {
+      "doca_id": 10,
+      "occupancy": 61.6172602739726,
+      "wait": 47.602739726027394,
+      "moves": 26735
+    },
+    {
+      "doca_id": 9,
+      "occupancy": 61.578630136986305,
+      "wait": 46.82438356164384,
+      "moves": 26698
+    },
+    {
+      "doca_id": 6,
+      "occupancy": 61.36931506849315,
+      "wait": 46.496986301369866,
+      "moves": 26756
+    },
+    {
+      "doca_id": 7,
+      "occupancy": 60.921369863013695,
+      "wait": 46.714520547945206,
+      "moves": 26318
+    },
+    {
+      "doca_id": 2,
+      "occupancy": 60.778082191780825,
+      "wait": 46.9613698630137,
+      "moves": 26152
+    },
+    {
+      "doca_id": 1,
+      "occupancy": 60.63999999999999,
+      "wait": 46.92602739726028,
+      "moves": 26328
+    },
+    {
+      "doca_id": 5,
+      "occupancy": 60.41890410958904,
+      "wait": 46.736438356164385,
+      "moves": 26323
+    },
+    {
+      "doca_id": 3,
+      "occupancy": 60.382465753424654,
+      "wait": 45.05698630136986,
+      "moves": 26096
+    },
+    {
+      "doca_id": 11,
+      "occupancy": 60.21232876712329,
+      "wait": 45.35753424657534,
+      "moves": 26071
+    },
+    {
+      "doca_id": 12,
+      "occupancy": 59.77424657534246,
+      "wait": 45.456712328767125,
+      "moves": 25643
+    }
+  ],
+  "filters": {
+    "regions": [
+      "Centro-Oeste",
+      "Nordeste",
+      "Norte",
+      "Sudeste",
+      "Sul"
+    ],
+    "priorities": [
+      "Normal",
+      "Programada",
+      "Urgente"
+    ],
+    "segments": [
+      "Atacado",
+      "E-commerce",
+      "Indústria",
+      "Varejo"
+    ]
+  }
+}
