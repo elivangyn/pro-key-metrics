@@ -121,10 +121,10 @@ function Dashboard() {
     } finally { setExporting(null); }
   }
 
-  return <div className="min-h-screen bg-background text-foreground lg:grid lg:grid-cols-[224px_1fr]">
+  return <div id="painel" className="min-h-screen scroll-smooth bg-background text-foreground lg:grid lg:grid-cols-[224px_1fr]">
     <aside className="hidden min-h-screen border-r border-border bg-panel/70 p-4 lg:flex lg:flex-col">
       <div className="mb-7 flex items-center gap-2.5"><span className="grid size-8 place-items-center rounded-md border border-primary/40 bg-primary/10 font-bold text-primary">V</span><div><p className="text-sm font-bold">Vórtice <span className="font-mono text-[10px] font-normal text-muted-foreground">/ops</span></p><p className="font-mono text-[9px] text-muted-foreground">LOGISTICS INTELLIGENCE</p></div></div>
-      <nav className="space-y-1 text-xs"><a className="flex items-center gap-2 rounded-md bg-primary/10 px-2.5 py-2 text-primary"><LayoutDashboard className="size-4"/>Painel executivo</a>{([{Icon:PackageCheck,label:"Pedidos"},{Icon:Truck,label:"Frota & motoristas"},{Icon:UsersRound,label:"Clientes & segmentos"},{Icon:Boxes,label:"Produtos & categorias"},{Icon:Warehouse,label:"Docas & estoque"}]).map(({Icon,label})=><a key={label} className="flex items-center gap-2 rounded-md px-2.5 py-2 text-muted-foreground transition-colors hover:bg-raised hover:text-foreground"><Icon className="size-4"/>{label}</a>)}</nav>
+      <nav className="space-y-1 text-xs"><a href="#painel" className="flex items-center gap-2 rounded-md bg-primary/10 px-2.5 py-2 text-primary"><LayoutDashboard className="size-4"/>Painel executivo</a>{([{Icon:PackageCheck,label:"Pedidos",href:"#excecoes"},{Icon:Truck,label:"Frota & motoristas",href:"#frota"},{Icon:UsersRound,label:"Clientes & segmentos",href:"#regioes"},{Icon:Boxes,label:"Produtos & categorias",href:"#prioridades"},{Icon:Warehouse,label:"Docas & estoque",href:"#docas"}]).map(({Icon,label,href})=><a key={label} href={href} className="flex items-center gap-2 rounded-md px-2.5 py-2 text-muted-foreground transition-colors hover:bg-raised hover:text-foreground"><Icon className="size-4"/>{label}</a>)}</nav>
       <div className="mt-auto border-t border-border pt-4 font-mono text-[10px] text-muted-foreground"><div className="flex justify-between"><span>Base</span><span className="text-foreground">11 abas</span></div><div className="mt-2 flex justify-between"><span>Qualidade</span><span className="text-success">100% íntegra</span></div></div>
     </aside>
 
