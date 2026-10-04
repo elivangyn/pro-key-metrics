@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import { toPng } from "html-to-image";
+import { jsPDF } from "jspdf";
 import {
   Activity, AlertTriangle, Boxes, ChevronDown, CircleDollarSign, Clock3,
   Download, Gauge, LayoutDashboard, MapPinned, PackageCheck, Route as RouteIcon,
