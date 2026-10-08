@@ -103,7 +103,6 @@ function FrotaDashboard() {
             <YAxis stroke="var(--muted-foreground)" tickLine={false} axisLine={false} fontSize={10} />
             <Tooltip contentStyle={{ background: "var(--popover)", border: "1px solid var(--border)", borderRadius: 6, fontSize: 11 }} />
             <Bar dataKey="entregas" name="Entregas" fill="var(--primary)" radius={[3, 3, 0, 0]} />
-            <Bar dataKey="custo" name="Custo (R$)" fill="var(--warning)" radius={[3, 3, 0, 0]} opacity={0.6} />
           </BarChart></ResponsiveContainer></div>
         </Panel>
         <Panel title="Motoristas por CNH" caption="CATEGORIA E NÍVEL DE SERVIÇO">
