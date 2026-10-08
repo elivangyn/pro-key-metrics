@@ -6,3 +6,7 @@
 - [x] Corrigir hydration mismatch no note "Ticket" do Kpi (formatação compact difere Node x navegador)
 - [x] Pagina Frota & Motoristas (/frota)
 - [x] Pagina Clientes & Segmentos (/clientes)
+- [x] README do repositorio (README.md) com metricas, modelo de dados e governanca
+- [ ] Pagina Produtos & Categorias (/produtos) no mesmo padrao das demais
+- [ ] Pagina Docas & Estoque (/docas) no mesmo padrao das demais
+- [ ] Preparar exercicios de SQL/Python que sustentem as metricas na explicacao em entrevista
