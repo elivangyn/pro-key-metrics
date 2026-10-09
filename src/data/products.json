@@ -13,7 +13,7 @@
       "value": 2387327.06,
       "weight": 31416.85,
       "volume": 202.482,
-      "ontime": 36,
+      "ontime": 34,
       "delay": 262.56,
       "freight": 73176.48,
       "cost": 22208.18
@@ -31,7 +31,7 @@
       "value": 245095.92,
       "weight": 29956.8,
       "volume": 111.864,
-      "ontime": 46,
+      "ontime": 45,
       "delay": 227.33,
       "freight": 70485.07,
       "cost": 23346.52
@@ -49,7 +49,7 @@
       "value": 325017.0,
       "weight": 21205.8,
       "volume": 98.406,
-      "ontime": 30,
+      "ontime": 27,
       "delay": 173.16,
       "freight": 54496.28,
       "cost": 17068.16
@@ -67,7 +67,7 @@
       "value": 514721.9,
       "weight": 45812.34,
       "volume": 11.536,
-      "ontime": 25,
+      "ontime": 24,
       "delay": 233.36,
       "freight": 56032.95,
       "cost": 18422.66
@@ -85,7 +85,7 @@
       "value": 1163690,
       "weight": 26960.12,
       "volume": 137.456,
-      "ontime": 34,
+      "ontime": 29,
       "delay": 196.99,
       "freight": 62109.97,
       "cost": 19860.88
@@ -103,7 +103,7 @@
       "value": 1508175.71,
       "weight": 13636.28,
       "volume": 199.517,
-      "ontime": 35,
+      "ontime": 33,
       "delay": 211.87,
       "freight": 69639.39,
       "cost": 21029.75
@@ -121,7 +121,7 @@
       "value": 167759.46,
       "weight": 40854.24,
       "volume": 199.755,
-      "ontime": 43,
+      "ontime": 37,
       "delay": 242.96,
       "freight": 68859.91,
       "cost": 22856.33
@@ -139,7 +139,7 @@
       "value": 1940453.1,
       "weight": 29039.4,
       "volume": 78.03,
-      "ontime": 29,
+      "ontime": 25,
       "delay": 204.63,
       "freight": 63976.19,
       "cost": 20180.44
@@ -157,7 +157,7 @@
       "value": 1182079.14,
       "weight": 41799.45,
       "volume": 198.528,
-      "ontime": 36,
+      "ontime": 33,
       "delay": 183.17,
       "freight": 63404.64,
       "cost": 20232.1
@@ -193,7 +193,7 @@
       "value": 942594.24,
       "weight": 29175.09,
       "volume": 26.537,
-      "ontime": 23,
+      "ontime": 19,
       "delay": 217.12,
       "freight": 63251.15,
       "cost": 19034.57
@@ -211,7 +211,7 @@
       "value": 839785.59,
       "weight": 36126.65,
       "volume": 44.037,
-      "ontime": 34,
+      "ontime": 32,
       "delay": 238.06,
       "freight": 69711.49,
       "cost": 22715.57
@@ -229,7 +229,7 @@
       "value": 1210604.38,
       "weight": 1893.16,
       "volume": 248.254,
-      "ontime": 45,
+      "ontime": 39,
       "delay": 261.76,
       "freight": 73604.61,
       "cost": 22958.68
@@ -247,7 +247,7 @@
       "value": 762377.25,
       "weight": 37790.91,
       "volume": 3.594,
-      "ontime": 33,
+      "ontime": 27,
       "delay": 269.92,
       "freight": 74265.21,
       "cost": 22121.7
@@ -265,7 +265,7 @@
       "value": 1329551.59,
       "weight": 31675.98,
       "volume": 209.181,
-      "ontime": 32,
+      "ontime": 28,
       "delay": 193.74,
       "freight": 63438.83,
       "cost": 19078.33
@@ -283,7 +283,7 @@
       "value": 1432836.48,
       "weight": 35297.4,
       "volume": 179.792,
-      "ontime": 29,
+      "ontime": 27,
       "delay": 226.81,
       "freight": 57283.21,
       "cost": 18540.31
@@ -301,7 +301,7 @@
       "value": 286951.88,
       "weight": 43691.54,
       "volume": 207.22,
-      "ontime": 48,
+      "ontime": 45,
       "delay": 236.33,
       "freight": 68676.7,
       "cost": 23050.41
@@ -319,7 +319,7 @@
       "value": 1687621.54,
       "weight": 26601.28,
       "volume": 142.262,
-      "ontime": 41,
+      "ontime": 39,
       "delay": 216.64,
       "freight": 67540.41,
       "cost": 22197.43
@@ -337,7 +337,7 @@
       "value": 1631765.91,
       "weight": 50966.34,
       "volume": 65.076,
-      "ontime": 30,
+      "ontime": 27,
       "delay": 201.58,
       "freight": 57844.75,
       "cost": 17809.71
@@ -355,7 +355,7 @@
       "value": 127818.0,
       "weight": 22068.0,
       "volume": 34.2,
-      "ontime": 32,
+      "ontime": 30,
       "delay": 237.73,
       "freight": 75382.96,
       "cost": 23432.73
@@ -373,7 +373,7 @@
       "value": 983934.0,
       "weight": 24136.0,
       "volume": 207.2,
-      "ontime": 26,
+      "ontime": 25,
       "delay": 240.06,
       "freight": 60490.83,
       "cost": 17993.09
@@ -391,7 +391,7 @@
       "value": 199933.08,
       "weight": 21286.32,
       "volume": 174.454,
-      "ontime": 34,
+      "ontime": 31,
       "delay": 171.61,
       "freight": 57725.0,
       "cost": 18534.58
@@ -409,7 +409,7 @@
       "value": 1680484.0,
       "weight": 38229.6,
       "volume": 189.04,
-      "ontime": 32,
+      "ontime": 27,
       "delay": 178.13,
       "freight": 60596.44,
       "cost": 19147.1
@@ -427,7 +427,7 @@
       "value": 234875.97,
       "weight": 17898.03,
       "volume": 10.872,
-      "ontime": 29,
+      "ontime": 28,
       "delay": 201.31,
       "freight": 54746.17,
       "cost": 17779.69
@@ -445,7 +445,7 @@
       "value": 2020769.15,
       "weight": 38906.1,
       "volume": 180.38,
-      "ontime": 35,
+      "ontime": 32,
       "delay": 234.95,
       "freight": 65249.38,
       "cost": 20935.35
@@ -463,7 +463,7 @@
       "value": 628336.08,
       "weight": 49066.36,
       "volume": 13.984,
-      "ontime": 40,
+      "ontime": 36,
       "delay": 242.47,
       "freight": 77220.87,
       "cost": 23697.81
@@ -481,7 +481,7 @@
       "value": 1385034.4,
       "weight": 53596.98,
       "volume": 3.566,
-      "ontime": 36,
+      "ontime": 32,
       "delay": 227.38,
       "freight": 65646.2,
       "cost": 22770.37
@@ -499,7 +499,7 @@
       "value": 2257415.5,
       "weight": 2065.17,
       "volume": 102.419,
-      "ontime": 32,
+      "ontime": 30,
       "delay": 264.86,
       "freight": 71632.33,
       "cost": 22034.58
@@ -517,7 +517,7 @@
       "value": 889054.74,
       "weight": 14246.54,
       "volume": 215.296,
-      "ontime": 40,
+      "ontime": 37,
       "delay": 246.52,
       "freight": 71769.03,
       "cost": 24242.6
@@ -535,7 +535,7 @@
       "value": 888928.32,
       "weight": 15666.8,
       "volume": 131.542,
-      "ontime": 33,
+      "ontime": 28,
       "delay": 163.15,
       "freight": 53553.54,
       "cost": 18742.05
@@ -553,7 +553,7 @@
       "value": 174689.97,
       "weight": 39775.05,
       "volume": 37.149,
-      "ontime": 22,
+      "ontime": 19,
       "delay": 171.93,
       "freight": 56546.72,
       "cost": 16818.89
@@ -571,7 +571,7 @@
       "value": 2717607.82,
       "weight": 45658.38,
       "volume": 219.494,
-      "ontime": 37,
+      "ontime": 36,
       "delay": 244.47,
       "freight": 66218.02,
       "cost": 22402.93
@@ -589,7 +589,7 @@
       "value": 1520812.8,
       "weight": 25272.0,
       "volume": 36.855,
-      "ontime": 36,
+      "ontime": 33,
       "delay": 252.92,
       "freight": 77401.42,
       "cost": 23559.69
@@ -607,7 +607,7 @@
       "value": 1086983.64,
       "weight": 44950.52,
       "volume": 164.52,
-      "ontime": 33,
+      "ontime": 26,
       "delay": 255.99,
       "freight": 71554.05,
       "cost": 22762.21
@@ -625,7 +625,7 @@
       "value": 727940.33,
       "weight": 22964.37,
       "volume": 27.573,
-      "ontime": 27,
+      "ontime": 26,
       "delay": 194.28,
       "freight": 56251.45,
       "cost": 18291.98
@@ -643,7 +643,7 @@
       "value": 988332.38,
       "weight": 10425.66,
       "volume": 5.768,
-      "ontime": 25,
+      "ontime": 24,
       "delay": 239.96,
       "freight": 67671.51,
       "cost": 21122.5
@@ -679,7 +679,7 @@
       "value": 2058844.37,
       "weight": 29081.58,
       "volume": 65.747,
-      "ontime": 27,
+      "ontime": 24,
       "delay": 253.5,
       "freight": 68259.79,
       "cost": 20256.25
@@ -697,7 +697,7 @@
       "value": 1459010.52,
       "weight": 21035.52,
       "volume": 248.336,
-      "ontime": 30,
+      "ontime": 28,
       "delay": 225.48,
       "freight": 69610.61,
       "cost": 22449.91
@@ -715,7 +715,7 @@
       "value": 795403.52,
       "weight": 36205.44,
       "volume": 170.912,
-      "ontime": 28,
+      "ontime": 24,
       "delay": 291.66,
       "freight": 75317.97,
       "cost": 24313.24
@@ -733,7 +733,7 @@
       "value": 1724927.22,
       "weight": 15005.88,
       "volume": 31.536,
-      "ontime": 24,
+      "ontime": 21,
       "delay": 199.26,
       "freight": 61084.68,
       "cost": 18987.54
@@ -751,7 +751,7 @@
       "value": 2089594.6,
       "weight": 35018.76,
       "volume": 211.106,
-      "ontime": 50,
+      "ontime": 45,
       "delay": 229.76,
       "freight": 76794.15,
       "cost": 25053.35
@@ -769,7 +769,7 @@
       "value": 1245589.05,
       "weight": 20576.79,
       "volume": 182.823,
-      "ontime": 27,
+      "ontime": 24,
       "delay": 164.81,
       "freight": 54637.01,
       "cost": 17338.71
@@ -787,7 +787,7 @@
       "value": 516657.44,
       "weight": 57119.27,
       "volume": 213.226,
-      "ontime": 35,
+      "ontime": 31,
       "delay": 224.76,
       "freight": 73194.15,
       "cost": 23802.5
@@ -823,7 +823,7 @@
       "value": 1970002.08,
       "weight": 20889.36,
       "volume": 8.208,
-      "ontime": 28,
+      "ontime": 24,
       "delay": 204.03,
       "freight": 56947.88,
       "cost": 19830.16
@@ -841,7 +841,7 @@
       "value": 141869.52,
       "weight": 2148.34,
       "volume": 50.084,
-      "ontime": 21,
+      "ontime": 18,
       "delay": 186.27,
       "freight": 55517.47,
       "cost": 17432.3
@@ -859,7 +859,7 @@
       "value": 115919.57,
       "weight": 24497.84,
       "volume": 64.752,
-      "ontime": 27,
+      "ontime": 24,
       "delay": 197.13,
       "freight": 55912.66,
       "cost": 16965.22
@@ -877,7 +877,7 @@
       "value": 1780258.5,
       "weight": 23018.1,
       "volume": 16.95,
-      "ontime": 40,
+      "ontime": 37,
       "delay": 239.13,
       "freight": 77977.55,
       "cost": 23823.21
@@ -895,7 +895,7 @@
       "value": 872327.25,
       "weight": 14811.93,
       "volume": 82.98,
-      "ontime": 32,
+      "ontime": 28,
       "delay": 182.6,
       "freight": 60451.45,
       "cost": 18364.17
@@ -931,7 +931,7 @@
       "value": 1059299.64,
       "weight": 27964.29,
       "volume": 82.773,
-      "ontime": 39,
+      "ontime": 34,
       "delay": 223.04,
       "freight": 72076.1,
       "cost": 22625.75
@@ -949,7 +949,7 @@
       "value": 755385.4,
       "weight": 45383.8,
       "volume": 61.6,
-      "ontime": 38,
+      "ontime": 37,
       "delay": 223.94,
       "freight": 68097.18,
       "cost": 21586.95
@@ -967,7 +967,7 @@
       "value": 397363.5,
       "weight": 19181.5,
       "volume": 116.905,
-      "ontime": 25,
+      "ontime": 22,
       "delay": 146.05,
       "freight": 51353.64,
       "cost": 16078.82
@@ -985,7 +985,7 @@
       "value": 1013480.25,
       "weight": 47403.9,
       "volume": 11.64,
-      "ontime": 30,
+      "ontime": 28,
       "delay": 180.85,
       "freight": 63456.58,
       "cost": 18710.38
@@ -1003,7 +1003,7 @@
       "value": 304677.23,
       "weight": 7675.84,
       "volume": 11.288,
-      "ontime": 31,
+      "ontime": 27,
       "delay": 179.19,
       "freight": 55662.59,
       "cost": 17715.74
@@ -1039,7 +1039,7 @@
       "value": 1554931.56,
       "weight": 39465.36,
       "volume": 67.044,
-      "ontime": 35,
+      "ontime": 29,
       "delay": 243.2,
       "freight": 74102.7,
       "cost": 23144.18
@@ -1057,7 +1057,7 @@
       "value": 2141419.92,
       "weight": 49728.96,
       "volume": 3.342,
-      "ontime": 30,
+      "ontime": 27,
       "delay": 246.05,
       "freight": 70173.16,
       "cost": 20504.62
@@ -1075,7 +1075,7 @@
       "value": 2074758.2,
       "weight": 9463.9,
       "volume": 187.34,
-      "ontime": 35,
+      "ontime": 28,
       "delay": 251.38,
       "freight": 64200.61,
       "cost": 20266.66
@@ -1093,7 +1093,7 @@
       "value": 1389104.8,
       "weight": 49155.76,
       "volume": 105.432,
-      "ontime": 34,
+      "ontime": 33,
       "delay": 182.48,
       "freight": 63489.7,
       "cost": 19895.49
@@ -1111,7 +1111,7 @@
       "value": 677689.59,
       "weight": 17879.22,
       "volume": 170.678,
-      "ontime": 36,
+      "ontime": 30,
       "delay": 247.1,
       "freight": 74093.06,
       "cost": 21645.24
@@ -1129,7 +1129,7 @@
       "value": 902109.1,
       "weight": 30377.29,
       "volume": 47.487,
-      "ontime": 30,
+      "ontime": 27,
       "delay": 223.45,
       "freight": 61745.97,
       "cost": 19836.38
@@ -1147,7 +1147,7 @@
       "value": 792532.5,
       "weight": 4397.52,
       "volume": 7.53,
-      "ontime": 35,
+      "ontime": 33,
       "delay": 230.06,
       "freight": 69981.91,
       "cost": 21637.1
@@ -1165,7 +1165,7 @@
       "value": 1433570.76,
       "weight": 8022.16,
       "volume": 146.714,
-      "ontime": 35,
+      "ontime": 32,
       "delay": 161.53,
       "freight": 59578.68,
       "cost": 17589.35
@@ -1183,7 +1183,7 @@
       "value": 1521177.0,
       "weight": 19108.0,
       "volume": 227.8,
-      "ontime": 40,
+      "ontime": 38,
       "delay": 213.68,
       "freight": 68315.9,
       "cost": 21814.89
@@ -1201,7 +1201,7 @@
       "value": 412242.6,
       "weight": 8008.0,
       "volume": 160.16,
-      "ontime": 34,
+      "ontime": 33,
       "delay": 225.17,
       "freight": 65809.79,
       "cost": 19908.41
@@ -1219,7 +1219,7 @@
       "value": 52223.5,
       "weight": 52238.55,
       "volume": 3.01,
-      "ontime": 40,
+      "ontime": 37,
       "delay": 248.13,
       "freight": 70333.34,
       "cost": 22216.03
@@ -1237,7 +1237,7 @@
       "value": 1986795.5,
       "weight": 30311.25,
       "volume": 29.5,
-      "ontime": 42,
+      "ontime": 36,
       "delay": 208.6,
       "freight": 58746.89,
       "cost": 19959.23
@@ -1255,7 +1255,7 @@
       "value": 650598.0,
       "weight": 29421.6,
       "volume": 146.64,
-      "ontime": 32,
+      "ontime": 29,
       "delay": 230.52,
       "freight": 65241.71,
       "cost": 19999.85
@@ -1273,7 +1273,7 @@
       "value": 1399318.8,
       "weight": 29266.89,
       "volume": 63.045,
-      "ontime": 35,
+      "ontime": 30,
       "delay": 154.59,
       "freight": 52792.14,
       "cost": 16585.96
@@ -1291,7 +1291,7 @@
       "value": 619149.06,
       "weight": 1449.18,
       "volume": 157.14,
-      "ontime": 34,
+      "ontime": 31,
       "delay": 216.83,
       "freight": 66545.03,
       "cost": 21570.28
@@ -1309,7 +1309,7 @@
       "value": 1328134.98,
       "weight": 14366.73,
       "volume": 146.372,
-      "ontime": 37,
+      "ontime": 35,
       "delay": 226.18,
       "freight": 72851.11,
       "cost": 21906.54
@@ -1327,7 +1327,7 @@
       "value": 1385533.54,
       "weight": 38547.38,
       "volume": 176.689,
-      "ontime": 36,
+      "ontime": 32,
       "delay": 271.45,
       "freight": 75257.95,
       "cost": 22709.81
@@ -1345,7 +1345,7 @@
       "value": 1294032.18,
       "weight": 57343.72,
       "volume": 104.958,
-      "ontime": 25,
+      "ontime": 23,
       "delay": 276.06,
       "freight": 77119.93,
       "cost": 22167.49
@@ -1363,7 +1363,7 @@
       "value": 895897.0,
       "weight": 40455.0,
       "volume": 114.55,
-      "ontime": 42,
+      "ontime": 38,
       "delay": 158.38,
       "freight": 50872.23,
       "cost": 17431.71
@@ -1381,7 +1381,7 @@
       "value": 1704903.0,
       "weight": 51725.6,
       "volume": 99.6,
-      "ontime": 37,
+      "ontime": 33,
       "delay": 235.56,
       "freight": 68728.88,
       "cost": 20574.83
@@ -1399,7 +1399,7 @@
       "value": 509229.24,
       "weight": 55774.62,
       "volume": 46.396,
-      "ontime": 49,
+      "ontime": 45,
       "delay": 218.8,
       "freight": 71649.93,
       "cost": 22693.58
@@ -1417,7 +1417,7 @@
       "value": 1194930,
       "weight": 53788.68,
       "volume": 55.539,
-      "ontime": 36,
+      "ontime": 30,
       "delay": 217.33,
       "freight": 69035.3,
       "cost": 21783.94
@@ -1435,7 +1435,7 @@
       "value": 1256379.6,
       "weight": 49539.7,
       "volume": 91.77,
-      "ontime": 37,
+      "ontime": 30,
       "delay": 180.97,
       "freight": 62566.47,
       "cost": 19043.43
@@ -1471,7 +1471,7 @@
       "value": 1909078.64,
       "weight": 50402.72,
       "volume": 206.96,
-      "ontime": 41,
+      "ontime": 39,
       "delay": 227.82,
       "freight": 70190.53,
       "cost": 23076.35
@@ -1489,7 +1489,7 @@
       "value": 59291.84,
       "weight": 9744.23,
       "volume": 149.296,
-      "ontime": 33,
+      "ontime": 30,
       "delay": 220.02,
       "freight": 63726.53,
       "cost": 20858.41
@@ -1507,7 +1507,7 @@
       "value": 1749546.24,
       "weight": 17489.16,
       "volume": 141.804,
-      "ontime": 30,
+      "ontime": 27,
       "delay": 201.87,
       "freight": 60913.35,
       "cost": 19264.11
@@ -1525,7 +1525,7 @@
       "value": 1436098.8,
       "weight": 18548.4,
       "volume": 150.88,
-      "ontime": 41,
+      "ontime": 35,
       "delay": 217.36,
       "freight": 63830.67,
       "cost": 21216.13
@@ -1543,7 +1543,7 @@
       "value": 985958.1,
       "weight": 29490.3,
       "volume": 195.3,
-      "ontime": 29,
+      "ontime": 27,
       "delay": 197.45,
       "freight": 55640.11,
       "cost": 18539.39
@@ -1561,7 +1561,7 @@
       "value": 398173.65,
       "weight": 25846.87,
       "volume": 116.34,
-      "ontime": 28,
+      "ontime": 25,
       "delay": 290.58,
       "freight": 80548.2,
       "cost": 25966.31
@@ -1579,7 +1579,7 @@
       "value": 1915653.6,
       "weight": 32114.74,
       "volume": 69.524,
-      "ontime": 29,
+      "ontime": 27,
       "delay": 134.22,
       "freight": 51458.35,
       "cost": 15937.34
@@ -1597,7 +1597,7 @@
       "value": 1940459.58,
       "weight": 5339.88,
       "volume": 165.771,
-      "ontime": 39,
+      "ontime": 35,
       "delay": 226.24,
       "freight": 71165.99,
       "cost": 22347.37
@@ -1615,7 +1615,7 @@
       "value": 1166731.8,
       "weight": 10707.63,
       "volume": 42.949,
-      "ontime": 40,
+      "ontime": 38,
       "delay": 165.71,
       "freight": 57141.33,
       "cost": 18861.23
@@ -1633,7 +1633,7 @@
       "value": 1187876.86,
       "weight": 15072.59,
       "volume": 13.064,
-      "ontime": 32,
+      "ontime": 27,
       "delay": 229.07,
       "freight": 71124.13,
       "cost": 22179.88
@@ -1651,7 +1651,7 @@
       "value": 268342.62,
       "weight": 35143.94,
       "volume": 115.05,
-      "ontime": 28,
+      "ontime": 24,
       "delay": 268.08,
       "freight": 69732.93,
       "cost": 21911.1
@@ -1669,7 +1669,7 @@
       "value": 1754627.9,
       "weight": 13943.18,
       "volume": 153.295,
-      "ontime": 29,
+      "ontime": 24,
       "delay": 157.96,
       "freight": 55334.52,
       "cost": 16618.34
@@ -1687,7 +1687,7 @@
       "value": 2373750.2,
       "weight": 57203.6,
       "volume": 244.02,
-      "ontime": 36,
+      "ontime": 32,
       "delay": 229.34,
       "freight": 69906.71,
       "cost": 22887.01
@@ -1705,7 +1705,7 @@
       "value": 1184858.22,
       "weight": 7105,
       "volume": 65.366,
-      "ontime": 36,
+      "ontime": 33,
       "delay": 167.34,
       "freight": 58238.67,
       "cost": 18808.76
@@ -1723,7 +1723,7 @@
       "value": 1453799.24,
       "weight": 52652.51,
       "volume": 165.261,
-      "ontime": 31,
+      "ontime": 28,
       "delay": 281.18,
       "freight": 77184.0,
       "cost": 25957.69
@@ -1741,7 +1741,7 @@
       "value": 2203092.36,
       "weight": 15515.22,
       "volume": 43.05,
-      "ontime": 33,
+      "ontime": 28,
       "delay": 240.7,
       "freight": 64759.42,
       "cost": 21892.93
@@ -1759,7 +1759,7 @@
       "value": 966962.89,
       "weight": 44264.26,
       "volume": 77.265,
-      "ontime": 38,
+      "ontime": 34,
       "delay": 228.91,
       "freight": 72702.2,
       "cost": 22178.52
@@ -1777,7 +1777,7 @@
       "value": 490269.15,
       "weight": 41067.65,
       "volume": 178.756,
-      "ontime": 29,
+      "ontime": 27,
       "delay": 259.24,
       "freight": 72266.82,
       "cost": 20950.49
@@ -1795,7 +1795,7 @@
       "value": 221989.69,
       "weight": 6120.4,
       "volume": 187.785,
-      "ontime": 19,
+      "ontime": 16,
       "delay": 257.93,
       "freight": 68602.93,
       "cost": 21890.06
@@ -1813,7 +1813,7 @@
       "value": 1148487.48,
       "weight": 54396.44,
       "volume": 51.352,
-      "ontime": 28,
+      "ontime": 27,
       "delay": 284.94,
       "freight": 71927.28,
       "cost": 24324.9
@@ -1831,7 +1831,7 @@
       "value": 1942026.31,
       "weight": 13276.06,
       "volume": 162.533,
-      "ontime": 39,
+      "ontime": 36,
       "delay": 218.57,
       "freight": 58721.35,
       "cost": 18841.1
@@ -1849,7 +1849,7 @@
       "value": 409400.01,
       "weight": 12934.77,
       "volume": 86.16,
-      "ontime": 30,
+      "ontime": 20,
       "delay": 161.88,
       "freight": 53039.1,
       "cost": 15545.16
@@ -1867,7 +1867,7 @@
       "value": 2124961.4,
       "weight": 9261.14,
       "volume": 224.754,
-      "ontime": 34,
+      "ontime": 29,
       "delay": 238.95,
       "freight": 64093.53,
       "cost": 20366.54
@@ -1903,7 +1903,7 @@
       "value": 308286.12,
       "weight": 23945.16,
       "volume": 32.823,
-      "ontime": 45,
+      "ontime": 40,
       "delay": 187.87,
       "freight": 61314.3,
       "cost": 19424.21
@@ -1921,7 +1921,7 @@
       "value": 349132.48,
       "weight": 23350.72,
       "volume": 196.768,
-      "ontime": 41,
+      "ontime": 39,
       "delay": 180.33,
       "freight": 60161.97,
       "cost": 18363.28
@@ -1939,7 +1939,7 @@
       "value": 94605.06,
       "weight": 12831.61,
       "volume": 67.353,
-      "ontime": 35,
+      "ontime": 30,
       "delay": 245.44,
       "freight": 75819.47,
       "cost": 24377.11
@@ -1957,7 +1957,7 @@
       "value": 1471272.66,
       "weight": 51568.66,
       "volume": 78.694,
-      "ontime": 35,
+      "ontime": 33,
       "delay": 199.34,
       "freight": 60692.06,
       "cost": 19862.66
@@ -1975,7 +1975,7 @@
       "value": 372797.1,
       "weight": 18240.6,
       "volume": 103.2,
-      "ontime": 31,
+      "ontime": 29,
       "delay": 169.03,
       "freight": 55374.59,
       "cost": 18222.27
@@ -1993,7 +1993,7 @@
       "value": 1087470.75,
       "weight": 44023.8,
       "volume": 171.92,
-      "ontime": 42,
+      "ontime": 38,
       "delay": 211.07,
       "freight": 64450.58,
       "cost": 20606.49
@@ -2011,7 +2011,7 @@
       "value": 144514.62,
       "weight": 55033.68,
       "volume": 88.764,
-      "ontime": 41,
+      "ontime": 37,
       "delay": 251.23,
       "freight": 70079.38,
       "cost": 21921.25
@@ -2029,7 +2029,7 @@
       "value": 1529456.25,
       "weight": 37736.75,
       "volume": 127.37,
-      "ontime": 25,
+      "ontime": 23,
       "delay": 194.83,
       "freight": 62170.55,
       "cost": 19810.65
@@ -2047,7 +2047,7 @@
       "value": 1194667.8,
       "weight": 13666.74,
       "volume": 250.617,
-      "ontime": 43,
+      "ontime": 39,
       "delay": 215.27,
       "freight": 69727.33,
       "cost": 23837.44
@@ -2065,7 +2065,7 @@
       "value": 663808.46,
       "weight": 433.72,
       "volume": 230.801,
-      "ontime": 37,
+      "ontime": 35,
       "delay": 222.25,
       "freight": 68431.97,
       "cost": 21384.85
@@ -2083,7 +2083,7 @@
       "value": 377019.27,
       "weight": 25694.65,
       "volume": 31.82,
-      "ontime": 29,
+      "ontime": 27,
       "delay": 290.99,
       "freight": 82182.46,
       "cost": 22790.73
@@ -2101,7 +2101,7 @@
       "value": 754529.16,
       "weight": 21553.98,
       "volume": 214.452,
-      "ontime": 35,
+      "ontime": 31,
       "delay": 271.24,
       "freight": 74085.67,
       "cost": 21941.44
@@ -2119,7 +2119,7 @@
       "value": 1421284.15,
       "weight": 25561.25,
       "volume": 155.727,
-      "ontime": 33,
+      "ontime": 30,
       "delay": 212.36,
       "freight": 64015.55,
       "cost": 19894.9
@@ -2137,7 +2137,7 @@
       "value": 428661.12,
       "weight": 52018.64,
       "volume": 81.328,
-      "ontime": 34,
+      "ontime": 32,
       "delay": 290.56,
       "freight": 75578.51,
       "cost": 23127.39
@@ -2155,7 +2155,7 @@
       "value": 1227309.75,
       "weight": 53500.2,
       "volume": 12.635,
-      "ontime": 41,
+      "ontime": 38,
       "delay": 243.1,
       "freight": 75319.27,
       "cost": 25602.86
@@ -2168,7 +2168,7 @@
       "orders": 155,
       "units": 2295,
       "value": 1393966.62,
-      "ontime": 41
+      "ontime": 40
     },
     {
       "month": 1,
@@ -2176,7 +2176,7 @@
       "orders": 227,
       "units": 3593,
       "value": 2729252.72,
-      "ontime": 78
+      "ontime": 73
     },
     {
       "month": 1,
@@ -2184,7 +2184,7 @@
       "orders": 89,
       "units": 1425,
       "value": 1180869.39,
-      "ontime": 31
+      "ontime": 27
     },
     {
       "month": 1,
@@ -2192,7 +2192,7 @@
       "orders": 161,
       "units": 2514,
       "value": 1459167.7,
-      "ontime": 58
+      "ontime": 48
     },
     {
       "month": 1,
@@ -2200,7 +2200,7 @@
       "orders": 170,
       "units": 2517,
       "value": 1736573.51,
-      "ontime": 51
+      "ontime": 46
     },
     {
       "month": 1,
@@ -2208,7 +2208,7 @@
       "orders": 212,
       "units": 3250,
       "value": 2174733.84,
-      "ontime": 64
+      "ontime": 59
     },
     {
       "month": 2,
@@ -2216,7 +2216,7 @@
       "orders": 155,
       "units": 2459,
       "value": 1258371.99,
-      "ontime": 46
+      "ontime": 38
     },
     {
       "month": 2,
@@ -2224,7 +2224,7 @@
       "orders": 182,
       "units": 2983,
       "value": 2301785.97,
-      "ontime": 68
+      "ontime": 64
     },
     {
       "month": 2,
@@ -2232,7 +2232,7 @@
       "orders": 93,
       "units": 1534,
       "value": 1323672.48,
-      "ontime": 36
+      "ontime": 28
     },
     {
       "month": 2,
@@ -2240,7 +2240,7 @@
       "orders": 146,
       "units": 2134,
       "value": 1473938.9,
-      "ontime": 49
+      "ontime": 47
     },
     {
       "month": 2,
@@ -2248,7 +2248,7 @@
       "orders": 186,
       "units": 2787,
       "value": 1981421.56,
-      "ontime": 70
+      "ontime": 64
     },
     {
       "month": 2,
@@ -2256,7 +2256,7 @@
       "orders": 190,
       "units": 2912,
       "value": 2141578.92,
-      "ontime": 57
+      "ontime": 52
     },
     {
       "month": 3,
@@ -2264,7 +2264,7 @@
       "orders": 156,
       "units": 2253,
       "value": 1359188.97,
-      "ontime": 65
+      "ontime": 59
     },
     {
       "month": 3,
@@ -2272,7 +2272,7 @@
       "orders": 193,
       "units": 3158,
       "value": 2556932.66,
-      "ontime": 73
+      "ontime": 69
     },
     {
       "month": 3,
@@ -2280,7 +2280,7 @@
       "orders": 98,
       "units": 1611,
       "value": 1305459.84,
-      "ontime": 33
+      "ontime": 32
     },
     {
       "month": 3,
@@ -2288,7 +2288,7 @@
       "orders": 155,
       "units": 2516,
       "value": 1760694.55,
-      "ontime": 53
+      "ontime": 51
     },
     {
       "month": 3,
@@ -2296,7 +2296,7 @@
       "orders": 200,
       "units": 2951,
       "value": 1964850.37,
-      "ontime": 73
+      "ontime": 64
     },
     {
       "month": 3,
@@ -2304,7 +2304,7 @@
       "orders": 205,
       "units": 3010,
       "value": 2303836.96,
-      "ontime": 84
+      "ontime": 80
     },
     {
       "month": 4,
@@ -2312,7 +2312,7 @@
       "orders": 167,
       "units": 2397,
       "value": 1461700.53,
-      "ontime": 66
+      "ontime": 61
     },
     {
       "month": 4,
@@ -2320,7 +2320,7 @@
       "orders": 189,
       "units": 3038,
       "value": 2394430.98,
-      "ontime": 55
+      "ontime": 49
     },
     {
       "month": 4,
@@ -2328,7 +2328,7 @@
       "orders": 94,
       "units": 1381,
       "value": 1317638.63,
-      "ontime": 37
+      "ontime": 34
     },
     {
       "month": 4,
@@ -2336,7 +2336,7 @@
       "orders": 157,
       "units": 2689,
       "value": 1785708.79,
-      "ontime": 58
+      "ontime": 55
     },
     {
       "month": 4,
@@ -2344,7 +2344,7 @@
       "orders": 177,
       "units": 2856,
       "value": 1901522.72,
-      "ontime": 62
+      "ontime": 53
     },
     {
       "month": 4,
@@ -2352,7 +2352,7 @@
       "orders": 243,
       "units": 3675,
       "value": 2625722.54,
-      "ontime": 76
+      "ontime": 67
     },
     {
       "month": 5,
@@ -2360,7 +2360,7 @@
       "orders": 158,
       "units": 2423,
       "value": 1599902.71,
-      "ontime": 53
+      "ontime": 52
     },
     {
       "month": 5,
@@ -2368,7 +2368,7 @@
       "orders": 202,
       "units": 3153,
       "value": 2707474.94,
-      "ontime": 79
+      "ontime": 67
     },
     {
       "month": 5,
@@ -2376,7 +2376,7 @@
       "orders": 96,
       "units": 1491,
       "value": 1222857.63,
-      "ontime": 34
+      "ontime": 32
     },
     {
       "month": 5,
@@ -2384,7 +2384,7 @@
       "orders": 164,
       "units": 2617,
       "value": 1778218.51,
-      "ontime": 52
+      "ontime": 42
     },
     {
       "month": 5,
@@ -2392,7 +2392,7 @@
       "orders": 181,
       "units": 2792,
       "value": 1818092.84,
-      "ontime": 63
+      "ontime": 59
     },
     {
       "month": 5,
@@ -2400,7 +2400,7 @@
       "orders": 203,
       "units": 3342,
       "value": 2449530.35,
-      "ontime": 67
+      "ontime": 57
     },
     {
       "month": 6,
@@ -2408,7 +2408,7 @@
       "orders": 176,
       "units": 2682,
       "value": 1635383.83,
-      "ontime": 61
+      "ontime": 54
     },
     {
       "month": 6,
@@ -2416,7 +2416,7 @@
       "orders": 179,
       "units": 3028,
       "value": 2230836.09,
-      "ontime": 58
+      "ontime": 52
     },
     {
       "month": 6,
@@ -2424,7 +2424,7 @@
       "orders": 118,
       "units": 1753,
       "value": 1536517.67,
-      "ontime": 47
+      "ontime": 43
     },
     {
       "month": 6,
@@ -2432,7 +2432,7 @@
       "orders": 158,
       "units": 2571,
       "value": 1692638.24,
-      "ontime": 62
+      "ontime": 59
     },
     {
       "month": 6,
@@ -2440,7 +2440,7 @@
       "orders": 170,
       "units": 2549,
       "value": 1790689.59,
-      "ontime": 57
+      "ontime": 48
     },
     {
       "month": 6,
@@ -2448,7 +2448,7 @@
       "orders": 213,
       "units": 2946,
       "value": 2104133.27,
-      "ontime": 73
+      "ontime": 62
     },
     {
       "month": 7,
@@ -2456,7 +2456,7 @@
       "orders": 153,
       "units": 2586,
       "value": 1751917.65,
-      "ontime": 49
+      "ontime": 45
     },
     {
       "month": 7,
@@ -2464,7 +2464,7 @@
       "orders": 215,
       "units": 3443,
       "value": 2664544.24,
-      "ontime": 71
+      "ontime": 64
     },
     {
       "month": 7,
@@ -2472,7 +2472,7 @@
       "orders": 101,
       "units": 1737,
       "value": 1633441.54,
-      "ontime": 34
+      "ontime": 29
     },
     {
       "month": 7,
@@ -2480,7 +2480,7 @@
       "orders": 148,
       "units": 2369,
       "value": 1541105.05,
-      "ontime": 50
+      "ontime": 45
     },
     {
       "month": 7,
@@ -2488,7 +2488,7 @@
       "orders": 198,
       "units": 3204,
       "value": 2170882.5,
-      "ontime": 61
+      "ontime": 55
     },
     {
       "month": 7,
@@ -2496,7 +2496,7 @@
       "orders": 238,
       "units": 3749,
       "value": 2667793.97,
-      "ontime": 83
+      "ontime": 77
     },
     {
       "month": 8,
@@ -2504,7 +2504,7 @@
       "orders": 184,
       "units": 3084,
       "value": 1841313.41,
-      "ontime": 51
+      "ontime": 48
     },
     {
       "month": 8,
@@ -2512,7 +2512,7 @@
       "orders": 201,
       "units": 2995,
       "value": 2365149.43,
-      "ontime": 72
+      "ontime": 64
     },
     {
       "month": 8,
@@ -2520,7 +2520,7 @@
       "orders": 87,
       "units": 1357,
       "value": 1151390.24,
-      "ontime": 27
+      "ontime": 23
     },
     {
       "month": 8,
@@ -2528,7 +2528,7 @@
       "orders": 155,
       "units": 2310,
       "value": 1600758.39,
-      "ontime": 41
+      "ontime": 40
     },
     {
       "month": 8,
@@ -2536,7 +2536,7 @@
       "orders": 198,
       "units": 3248,
       "value": 2280252.09,
-      "ontime": 63
+      "ontime": 50
     },
     {
       "month": 8,
@@ -2544,7 +2544,7 @@
       "orders": 204,
       "units": 3156,
       "value": 2083129.13,
-      "ontime": 62
+      "ontime": 52
     },
     {
       "month": 9,
@@ -2552,7 +2552,7 @@
       "orders": 160,
       "units": 2469,
       "value": 1281890.24,
-      "ontime": 42
+      "ontime": 40
     },
     {
       "month": 9,
@@ -2560,7 +2560,7 @@
       "orders": 180,
       "units": 2863,
       "value": 2130917.75,
-      "ontime": 67
+      "ontime": 61
     },
     {
       "month": 9,
@@ -2568,7 +2568,7 @@
       "orders": 90,
       "units": 1289,
       "value": 1077969.81,
-      "ontime": 27
+      "ontime": 25
     },
     {
       "month": 9,
@@ -2576,7 +2576,7 @@
       "orders": 143,
       "units": 2241,
       "value": 1562899.44,
-      "ontime": 49
+      "ontime": 45
     },
     {
       "month": 9,
@@ -2584,7 +2584,7 @@
       "orders": 170,
       "units": 2598,
       "value": 1586164.69,
-      "ontime": 61
+      "ontime": 57
     },
     {
       "month": 9,
@@ -2592,7 +2592,7 @@
       "orders": 207,
       "units": 3214,
       "value": 2364629.19,
-      "ontime": 80
+      "ontime": 75
     },
     {
       "month": 10,
@@ -2600,7 +2600,7 @@
       "orders": 170,
       "units": 2645,
       "value": 1391497.25,
-      "ontime": 50
+      "ontime": 46
     },
     {
       "month": 10,
@@ -2608,7 +2608,7 @@
       "orders": 211,
       "units": 3301,
       "value": 2838372.5,
-      "ontime": 65
+      "ontime": 58
     },
     {
       "month": 10,
@@ -2616,7 +2616,7 @@
       "orders": 93,
       "units": 1383,
       "value": 1209573.48,
-      "ontime": 34
+      "ontime": 33
     },
     {
       "month": 10,
@@ -2624,7 +2624,7 @@
       "orders": 140,
       "units": 1973,
       "value": 1280108.72,
-      "ontime": 44
+      "ontime": 40
     },
     {
       "month": 10,
@@ -2632,7 +2632,7 @@
       "orders": 184,
       "units": 2773,
       "value": 1704326.62,
-      "ontime": 64
+      "ontime": 60
     },
     {
       "month": 10,
@@ -2640,7 +2640,7 @@
       "orders": 203,
       "units": 3161,
       "value": 2155139.67,
-      "ontime": 64
+      "ontime": 61
     },
     {
       "month": 11,
@@ -2648,7 +2648,7 @@
       "orders": 148,
       "units": 2191,
       "value": 1266478.51,
-      "ontime": 43
+      "ontime": 40
     },
     {
       "month": 11,
@@ -2656,7 +2656,7 @@
       "orders": 185,
       "units": 2783,
       "value": 2282656.15,
-      "ontime": 51
+      "ontime": 49
     },
     {
       "month": 11,
@@ -2664,7 +2664,7 @@
       "orders": 114,
       "units": 1712,
       "value": 1455523.08,
-      "ontime": 33
+      "ontime": 28
     },
     {
       "month": 11,
@@ -2672,7 +2672,7 @@
       "orders": 144,
       "units": 2161,
       "value": 1501833.07,
-      "ontime": 55
+      "ontime": 52
     },
     {
       "month": 11,
@@ -2680,7 +2680,7 @@
       "orders": 164,
       "units": 2431,
       "value": 1655043.7,
-      "ontime": 65
+      "ontime": 58
     },
     {
       "month": 11,
@@ -2688,7 +2688,7 @@
       "orders": 188,
       "units": 3038,
       "value": 1974948.21,
-      "ontime": 62
+      "ontime": 55
     },
     {
       "month": 12,
@@ -2696,7 +2696,7 @@
       "orders": 164,
       "units": 2594,
       "value": 1647973.79,
-      "ontime": 55
+      "ontime": 48
     },
     {
       "month": 12,
@@ -2704,7 +2704,7 @@
       "orders": 171,
       "units": 2559,
       "value": 1831464.18,
-      "ontime": 66
+      "ontime": 61
     },
     {
       "month": 12,
@@ -2712,7 +2712,7 @@
       "orders": 101,
       "units": 1625,
       "value": 1406044.62,
-      "ontime": 30
+      "ontime": 26
     },
     {
       "month": 12,
@@ -2720,7 +2720,7 @@
       "orders": 153,
       "units": 2531,
       "value": 1692884.84,
-      "ontime": 47
+      "ontime": 42
     },
     {
       "month": 12,
@@ -2728,7 +2728,7 @@
       "orders": 199,
       "units": 2984,
       "value": 2096518.02,
-      "ontime": 68
+      "ontime": 61
     },
     {
       "month": 12,
@@ -2736,7 +2736,7 @@
       "orders": 218,
       "units": 3421,
       "value": 2567643.77,
-      "ontime": 62
+      "ontime": 57
     }
   ]
 }
