@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep uploaded logistics data as a pre-aggregated, typed JSON snapshot in `src/data`; this makes the read-only dashboard fast and portable without a backend.
+- Keep the product catalogue and monthly category aggregates in a dedicated product snapshot; reconcile it against source orders so category filters and exports use the same data.
