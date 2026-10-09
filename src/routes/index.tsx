@@ -15,9 +15,9 @@ import data from "../data/logistics.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
-    { title: "Torre de Controle | Vórtice Ops" },
+    { title: "Torre de Controle | Menu Ops" },
     { name: "description", content: "Dashboard executivo com indicadores reais de pedidos, entregas, frota e ocorrências." },
-    { property: "og:title", content: "Torre de Controle Logística | Vórtice Ops" },
+    { property: "og:title", content: "Torre de Controle Logística | Menu Ops" },
     { property: "og:description", content: "Indicadores executivos de performance logística em uma única visão." },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
@@ -123,7 +123,7 @@ function Dashboard() {
 
   return <div id="painel" className="min-h-screen scroll-smooth bg-background text-foreground lg:grid lg:grid-cols-[224px_1fr]">
     <aside className="hidden min-h-screen border-r border-border bg-panel/70 p-4 lg:flex lg:flex-col">
-      <div className="mb-7 flex items-center gap-2.5"><span className="grid size-8 place-items-center rounded-md border border-primary/40 bg-primary/10 font-bold text-primary">V</span><div><p className="text-sm font-bold">Vórtice <span className="font-mono text-[10px] font-normal text-muted-foreground">/ops</span></p><p className="font-mono text-[9px] text-muted-foreground">LOGISTICS INTELLIGENCE</p></div></div>
+      <div className="mb-7 flex items-center gap-2.5"><span className="grid size-8 place-items-center rounded-md border border-primary/40 bg-primary/10 font-bold text-primary">M</span><div><p className="text-sm font-bold">Menu <span className="font-mono text-[10px] font-normal text-muted-foreground">/ops</span></p><p className="font-mono text-[9px] text-muted-foreground">LOGISTICS INTELLIGENCE</p></div></div>
       <nav className="space-y-1 text-xs"><a href="#painel" className="flex items-center gap-2 rounded-md bg-primary/10 px-2.5 py-2 text-primary"><LayoutDashboard className="size-4"/>Painel executivo</a><Link to="/pedidos" className="flex items-center gap-2 rounded-md px-2.5 py-2 text-muted-foreground transition-colors hover:bg-raised hover:text-foreground"><PackageCheck className="size-4"/>Pedidos</Link><Link to="/frota" className="flex items-center gap-2 rounded-md px-2.5 py-2 text-muted-foreground transition-colors hover:bg-raised hover:text-foreground"><Truck className="size-4"/>Frota & motoristas</Link><Link to="/clientes" className="flex items-center gap-2 rounded-md px-2.5 py-2 text-muted-foreground transition-colors hover:bg-raised hover:text-foreground"><UsersRound className="size-4"/>Clientes & segmentos</Link><Link to="/produtos" className="flex items-center gap-2 rounded-md px-2.5 py-2 text-muted-foreground transition-colors hover:bg-raised hover:text-foreground"><Boxes className="size-4"/>Produtos & categorias</Link><a href="#docas" className="flex items-center gap-2 rounded-md px-2.5 py-2 text-muted-foreground transition-colors hover:bg-raised hover:text-foreground"><Warehouse className="size-4"/>Docas & estoque</a></nav>
       <div className="mt-auto border-t border-border pt-4 font-mono text-[10px] text-muted-foreground"><div className="flex justify-between"><span>Base</span><span className="text-foreground">11 abas</span></div><div className="mt-2 flex justify-between"><span>Qualidade</span><span className="text-success">100% íntegra</span></div></div>
     </aside>
