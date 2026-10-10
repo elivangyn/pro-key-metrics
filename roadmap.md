@@ -8,5 +8,5 @@
 - [x] Pagina Clientes & Segmentos (/clientes)
 - [x] README do repositorio (README.md) com metricas, modelo de dados e governanca
 - [x] Pagina Produtos & Categorias (/produtos): indicadores reais, filtros, busca e exportacao CSV
-- [ ] Pagina Docas & Estoque (/docas) no mesmo padrao das demais
+- [x] Pagina Docas & Estoque (/docas) no mesmo padrao das demais
 - [ ] Preparar exercicios de SQL/Python que sustentem as metricas na explicacao em entrevista
